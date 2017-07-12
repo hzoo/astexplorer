@@ -12,13 +12,16 @@ const availablePlugins = [
   'estree',
   'exportExtensions',
   'flow',
+  'typescript',
   'functionSent',
   'functionBind',
   'jsx',
   'objectRestSpread',
   'dynamicImport',
   'numericSeparator',
+  'optionalChaining',
   'importMeta',
+  'bigInt',
 ];
 
 const ID = 'babylon7';
@@ -39,6 +42,8 @@ export const defaultOptions = {
     'jsx',
     'objectRestSpread',
     'dynamicImport',
+    'numericSeparator',
+    'optionalChaining',
   ],
 };
 

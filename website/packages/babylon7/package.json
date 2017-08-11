@@ -4,6 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "babylon": "7.0.0-beta.18"
+    "babylon": "v7.0.0-beta.19"
   }
 }
